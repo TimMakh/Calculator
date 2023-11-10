@@ -75,16 +75,16 @@ document.querySelector(".main__content").onclick = (event) => {
         break;
     }
     finish = true;
-    display.textContent = a.toFixed(2);
+    display.textContent = a.toFixed(1);
   }
   if (meaning === "%") {
     a = a / 100;
     finish = true;
-    display.textContent = a.toFixed(2);
+    display.textContent = a.toFixed(1);
   }
   if (meaning === "+/-") {
     a = -a;
     finish = true;
-    display.textContent = a.toFixed(2);
+    display.textContent = a.toFixed(1);
   }
 };

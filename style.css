@@ -51,3 +51,13 @@ button {
 #zero {
   width: 220px;
 }
+#operand:hover,
+#operator:hover,
+button:hover {
+  background-color: #ff3434;
+}
+#operand:active,
+#operator:active,
+button:active {
+  background-color: red;
+}
